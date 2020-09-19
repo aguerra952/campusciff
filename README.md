@@ -19,3 +19,11 @@ git add . --a`
 
 `git push`
 
+2.6. Creo en mi repositorio local una carpeta llamada 'privada' y un archivo llamado 'privado.txt'.
+
+2.7. Luego creo un archivo .gitignore y dentro de este escribo el nombre de los archivos que quiero ignorar en GitHub. Ahora subo los cambios a la nube:
+
+`git status
+git add . --a
+git commit -m "Añado el archivo .gitignore"
+git push`

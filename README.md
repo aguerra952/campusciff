@@ -156,3 +156,27 @@ git add . --a
 git commit -m "Modifico fichero README"
 git push
 ~~~
+**2.12. Listo todos los cambios.**
+~~~
+C:\Users\axgue\Documents\ejercicioGitHub\campusciff>git log --oneline
+1b5e5bc (HEAD -> master, origin/master) Modifico fichero README
+ee363ef (tag: v0.2) Conflicto arreglado
+e7f1953 He escrito 'Adios' en el fichero 1.txt
+cef7a69 He escrito 'Hola' en el fichero 1.txt
+6acb774 (origin/v0.2) Añadido fichero '2.txt' a la rama v0.2
+ab7d587 Añado imágenes al ejercicio básico.
+3459823 Añado imágenes al ejercicio básico
+e60595c GitHub de compañeros añadido en el archivo README.md
+73e829c (tag: v0.1) Añadido el fichero '1.txt' y creado el tag 'v0.1'
+4af836d Añado el archivo .gitignore
+a42ba8c Commit inicial
+~~~
+**2.13 - 2.14. Creo una organización y añado a miembros:**
+
+**2.15. Creo un index.html para la organización y lo subo al repositorio de la organización:**
+~~~
+git clone https://github.com/campusciff-aguerra952/general.git
+git add . --a
+git commit -m "Subido archivo index.html"
+git push 
+~~~

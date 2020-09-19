@@ -35,11 +35,35 @@ git push
 git tag -a v0.1 -m "Version 0.1 - campusciff"
 git tag -n
 ~~~
-2.9. Subo el tag que he creado más el archivo:
+2.10. Subo el tag que he creado más el archivo:
 ~~~
 git status
 git add . --a
+git status
 git commit -m “Añadido el fichero '1.txt' y creado el tag 'v0.1'”
 git push
 git push --tags
+~~~
+2.11. Edito mi perfil:
+
+2.12. Sigo a mis compañeros, sus repositorios y pongo estrellas a los repositorios que me interesen:
+
+2.13. Creo una tabla utilizando sintaxis markdown y dentro escribo los enlaces de GitHub de mis compañeros:
+
+|NOMBRE|GITHUB|
+|---|---|
+| Sebastián Berdonces | https://github.com/sberdonces1996 |
+| Juan Manuel Casado | https://github.com/JuanManuelCasado |
+| Rafa Domínguez | https://github.com/rafadominguez71 |
+| David Bueno | https://github.com/dvidgb |
+| Rafael Palomino | https://github.com/solkido |
+| Luis Manuel | https://github.com/luismamm |
+
+Ahora guardo los cambios:
+
+~~~
+git status
+git add . --a
+git commit -m "GitHub de compañeros añadido en el archivo README.md"
+git push
 ~~~

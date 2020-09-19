@@ -83,3 +83,22 @@ git push
 **2.14. Hago colaborabor a asanzdiego:**
 
 <img src="https://github.com/aguerra952/campusciff/blob/master/screenshots/hago-colaborador.png"/>
+
+## Ejercicio avanzado
+**2.2. Creo una rama llamada 'v0.2' y me posiciono en ella.**
+
+`git checkout -b v0.2`
+
+También se podría hacer de la siguiente manera:
+~~~
+git branch v0.2
+git checkout v0.2
+~~~
+**2.3. Creo un fichero llamado '2.txt' y lo añado a la rama v0.2**
+~~~
+git add . --a
+git commit -m "Añadido fichero '2.txt' a la rama v0.2"
+~~~~
+**2.4. Subo la rama a la nube.**
+
+`git push origin v0.2`

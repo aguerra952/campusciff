@@ -102,3 +102,57 @@ git commit -m "Añadido fichero '2.txt' a la rama v0.2"
 **2.4. Subo la rama a la nube.**
 
 `git push origin v0.2`
+
+**2.5. Me posiciono en la rama master y fusiono la rama v0.2 con la master:**
+~~~
+git checkout master
+git merge v0.2
+~~~
+**2.6. Me voy a la rama master, escribo hola en el fichero '1.txt' y hago commit.**
+
+`git chekout master`
+
+~~~
+git add . --a
+git commit -m "He escrito 'Hola' en el fichero 1.txt"
+~~~
+**2.7. Me voy a la rama v0.2 y pongo adios en fichero '1.txt' y hago commit.**
+
+`git checkout v0.2`
+
+~~~
+git add . --a
+git commit -m "He escrito 'Adios' en el fichero 1.txt"
+~~~
+**2.8. Me voy de nuevo a la rama master y hago un merge con la rama v0.2.**
+~~~
+git checkout master
+git merge v0.2
+~~~
+Sale el siguiente conflicto:
+~~~
+C:\Users\axgue\Documents\ejercicioGitHub\campusciff>git merge v0.2
+Auto-merging 1.txt
+CONFLICT (content): Merge conflict in 1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+~~~
+**2.9. Listo las ramas fusionadas y no fusionadas.**
+~~~
+git branch --merged
+git branch --no-merged
+~~~
+**2.10. Arreglo el conflicto haciendo un commit:**
+~~~
+git add .
+git merge v0.2
+git commit -m "Conflicto arreglado"
+~~~
+**2.11. Creo un tag y borro la rama v0.2. Además modifico el fichero README.**
+~~~
+git tag v0.2
+git branch -d v0.2
+git push --tags
+git add . --a
+git commit -m "Modifico fichero README"
+git push
+~~~

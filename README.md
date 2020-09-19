@@ -173,6 +173,20 @@ a42ba8c Commit inicial
 ~~~
 **2.13 - 2.14. Creo una organización y añado a miembros:**
 
+<img src="https://github.com/aguerra952/campusciff/blob/master/screenshots/organizacion.png"/>
+
+Creo los equipos:
+
+<img src="https://github.com/aguerra952/campusciff/blob/master/screenshots/equipo-administradores.png"/>
+
+<img src="https://github.com/aguerra952/campusciff/blob/master/screenshots/equipo-colaboradores.png"/>
+
+Añado miembros a los equipos:
+
+<img src="https://github.com/aguerra952/campusciff/blob/master/screenshots/miembros-admins.png"/>
+
+<img src="https://github.com/aguerra952/campusciff/blob/master/screenshots/miembros-colab.png"/>
+
 **2.15. Creo un index.html para la organización y lo subo al repositorio de la organización:**
 ~~~
 git clone https://github.com/campusciff-aguerra952/general.git
@@ -180,3 +194,4 @@ git add . --a
 git commit -m "Subido archivo index.html"
 git push 
 ~~~
+Enlace a mi organización: https://github.com/campusciff-aguerra952
